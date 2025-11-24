@@ -11,6 +11,8 @@ The AI agent was trained using a custom Utility Loss Function on Monte Carlo sim
 - **Benchmark:** Black-Scholes Delta Hedging (incurs high costs due to frequent rebalancing).
 - **AI Solution:** Deep Hedging Agent (learns to trade sparsely, only when necessary).
 - **Outcome:** The AI reduced the global loss by approx **80%** compared to the naive Black-Scholes strategy under 1% transaction costs.
+- ![unnamed](https://github.com/user-attachments/assets/22c2d567-3969-4b0f-b91b-0de08242dc8c)
+
 
 ## Technical Stack
 - **Python**
@@ -26,5 +28,5 @@ The AI agent was trained using a custom Utility Loss Function on Monte Carlo sim
 ## File Structure
 - `Deep_Hedging_Project.ipynb`: The main Jupyter Notebook containing the simulation, training, and visualization code.
 
-## 📚 References
+## References
 Based on the "Deep Hedging" framework by Hans Buehler et al. (2019).
