@@ -41,13 +41,13 @@ We compared three strategies under 1% transaction costs.
 
 | Metric | Black-Scholes | Naive AI (Static) | Optimized AI (Final) |
 | :--- | :--- | :--- | :--- |
-| **Strategy** | Continuous Trading | No Trading | **Bandwidth Trading** |
-| **Cost Impact** | Massive Losses | Zero Cost | **Controlled Cost** |
+| **Strategy** | Continuous Trading | Lazy Trading | **Bandwidth Trading** |
+| **Cost Impact** | Massive Losses (-2.2) | Few Cost (-0.8) | **Controlled Cost** (-0.9) |
 | **Risk (Volatility)** | Low (Theoretical) | **Extreme (High)** | **Low (Optimized)** |
 
 * **Black-Scholes:** Fails due to costs.
 * **Naive AI:** Profitable on average but **dangerous** (high variance/risk).
-* **Optimized AI:** The best trade-off. It accepts a small cost to drastically reduce risk, achieving a P&L distribution centered near zero.
+* **Optimized AI:** The best trade-off. It accepts a small cost to drastically reduce risk, achieving a P&L distribution centered and closer to zero.
 
 <img width="1264" height="678" alt="image" src="https://github.com/user-attachments/assets/3a3b871c-9041-4358-aab0-5cd076ad1c83" />
 
